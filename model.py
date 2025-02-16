@@ -7,7 +7,7 @@ from gtts import gTTS
 import os
 
 # Load pre-trained Whisper model for STT (you could also experiment with a larger model)
-whisper_model = whisper.load_model("small")
+whisper_model = whisper.load_model("medium")
 
 def anonymize(input_audio_path):  # <!> DO NOT ADD ANY OTHER ARGUMENTS <!>
     """
